@@ -5,10 +5,12 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #F0F7EE;
 }
 
 html {
@@ -160,14 +162,14 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
-  color: white;
+  color: #F2F7F2;
 }
 
 .btn-color-1:hover {
   background: rgb(0, 0, 0);
 }
 .btn-color-2 {
-  background: none;
+  background-color: white;
 }
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
@@ -221,11 +223,27 @@ section {
   width: 400px;
   margin: auto;
 }
-.text-container {
+.my-story-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.hello-image {
+  margin-top: 10vh;
+  height: 10rem;
+  width: 25rem;
+  border-radius: 1rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: grey;
+  background: white;
+  
 }
 
 /* EXPERIENCE */
