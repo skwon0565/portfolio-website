@@ -23,15 +23,31 @@
             </ul>
         </div>
     </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">John Doe</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
     <section id="profile">
         <div class="section__pic-container">
             <!-- type ./ and click assets -->
-            <img src="./assets/profile-pic.png" alt="Sunny Kwon Profile Picture">
+            <img src="./assets/pfp2.jpg" alt="Sunny Kwon Profile Picture">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Sunny Kwon</h1>
-            <p class="section__text__p2">Full-Stack Developer</p>
+            <p class="section__text__p2">Software Developer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/Sunny Kwon Resume.pdf')">
                     Download Resume
@@ -44,7 +60,7 @@
                 <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon"
                     onclick="location.href='https://www.linkedin.com/in/sunny-kwon/'">
                 <img src="./assets/github.png" alt="My GitHub Profile" class="icon"
-                    onclick="location.href='https://github.com/skwon0565'">
+                    onclick="location.href='https://github.com/sunny-kwon'">
             </div>
         </div>
     </section>
@@ -207,7 +223,7 @@
                     <h2 class="experience-sub-title project-title">Vending Machine Simulator</h2>
                     <div>
                         <button class="btn btn-color-2 project btn"
-                            onclick="location.href='https://github.com/skwon0565/vending-machine-simulator/tree/main/src/main/java/com/techelevator'">
+                            onclick="location.href='https://github.com/sunny-kwon/vending-machine-simulator/tree/main/src/main/java/com/techelevator'">
                             GitHub</button>
                     </div>
                 </div>
@@ -218,7 +234,7 @@
                     <h2 class="experience-sub-title project-title">Tenmo Payment System</h2>
                     <div>
                         <button class="btn btn-color-2 project btn"
-                            onclick="location.href='https://github.com/skwon0565/tenmo-payment-app'">
+                            onclick="location.href='https://github.com/sunny-kwon/tenmo-payment-app'">
                             GitHub</button>
                     </div>
                 </div>
@@ -229,7 +245,7 @@
                     <h2 class="experience-sub-title project-title">Medical Scheduling App</h2>
                     <div>
                         <button class="btn btn-color-2 project btn"
-                            onclick="location.href='https://github.com/skwon0565/medical-scheduling-app'">
+                            onclick="location.href='https://github.com/sunny-kwon/medical-scheduling-app'">
                             GitHub</button>
                     </div>
                 </div>
